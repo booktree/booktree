@@ -9,6 +9,8 @@
 - increase the quality / price ratio of textual learning material: textbooks, papers, tutorials.
 - motivate readers (students) to learn by contributing.
 
+[Presentation video](https://www.youtube.com/watch?v=8MA-0_ZWmlY). (partially outdated).
+
 # Intro for programmers
 
 -   **GitHub clone**
