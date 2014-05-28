@@ -1,4 +1,10 @@
-The [GitLab guidelines](https://github.com/gitlabhq/gitlabhq/blob/master/CONTRIBUTING.md) apply unless stated otherwise.
+The CONTRIBUTING guidelines of each forked project apply unless stated otherwise here or on the `CONTRIBUTING_FORK` of the project.
+
+# Issues
+
+If an issue applies only to a particular repository, open it in that repository.
+
+If you are not sure what it applies to, open it on this repository.
 
 # Labels
 
@@ -7,8 +13,6 @@ The [GitLab guidelines](https://github.com/gitlabhq/gitlabhq/blob/master/CONTRIB
 -   `duplicate`
 
 -   `enhancement`: requests that something be modified, although it is not clearly broken as in a `bug`. Sometimes the difference between both is subjective.
-
-    Unlike GitLab, we treat feature requests in the GitHub issue tracker.
 
     Labels that only apply to `enhancements`:
 
@@ -22,11 +26,11 @@ The [GitLab guidelines](https://github.com/gitlabhq/gitlabhq/blob/master/CONTRIB
 
 -   `question`: usage question for something that is already possible and so convenient it does not deserve a new feature.
 
--   `gitlab` prefixed labels give status of the request on GitLab.
+-   `orig` prefixed labels give status of the request on the original project, e.g:
 
-    - `gitlab-accepting-pr`: GitLab has accepted the feature, and it is also particularly important for this project.
-    - `gitlab-timeout`: 2 weeks passed without a favorable reply from GitLab Team.
-    - `gitlab-wontfix`: GitLab declined the feature. It might still be acceptable in this project.
+    - `orig-accepting-pr`: the original project has accepted the feature, and it is also particularly important for this project.
+    - `orig-timeout`: 2 weeks passed without a favorable reply from Prose Team.
+    - `orig-wontfix`: the original project declined the feature. It might still be acceptable in this project.
 
 If you don't have the permission to add a label to your issue, please add it to the title of the issue as:
 
@@ -50,24 +54,14 @@ Next upvote comment:
 
 And so on.
 
-# Install
-
-Installation is very similar to that of GitLab itself. The recommended method for both production and development is to use the [Booktree Cookbook on metal](https://gitlab.com/cirosantilli/cookbook-gitlab/blob/master/doc/development_metal.md).
-
-Like for the original GitLab, configuration files which vary across deployments are gitignored, given a Git tracked `.example` version, and installed by the cookbook via templates found under `templates/default`.
-
-# Reset to initial state
-
-To reset the state of the server to the initial state, use `bundle exec rake gitlab:setup`. This command is analogous to a `bundle exec rake db:reset`, and not `db:setup`: it destroys everything and then recreates initial state, including the repositories.
-
 # Branches
 
 Use the following branches:
 
-- `origin`: original GitLab.
+- `origin`: original project.
 - `mine`: this repo.
 
-This weird use of `origin` instead of `upstream` is needed for the moment to make some tests pass.
+This weird use of `origin` instead of `upstream` is needed for the moment to make some tests pass on GitLab.
 
 Use feature branches for every modification.
 
@@ -75,57 +69,37 @@ Use feature branches for every modification.
 
 This project will attempt to:
 
-- merge back any contributions which also make sense for GitLab.
-- incorporate every new version of GitLab
+- merge back any contributions which also make sense for the original projects it forks.
+- merge every new stable version of the original projects into their forks.
 
 Because we have slightly different design goals, some changes will not be merged back.
 
-Files which differ entirely from GitLab will be listed under `.gitattributes` with `merge=ours`.
-
-We will merge GitLab stable releases into our system as soon as possible after a stable release comes out.
-
-## Design goal divergences
-
-Major points in which our design goals differ from GitLab include:
-
--   we give greater focus to a SaaS service rather than local installs.
-
-    We intend to provide a service different enough from GitHub to be competitive.
-
-    It is more advantageous to the world if all books can be found at single website.
-
-    Local installs will still be supported.
-
--   we give greater focus to web interface Git and editing operations.
-
-    We want non-programmers to use ours system, and therefore everything must be doable from the web interface.
+Files which differ entirely from their original projects will be listed under `.gitattributes` with `merge=ours`.
 
 ## Where to submit
 
--   if your patch also makes sense for GitLab:
+-   if your patch also makes sense for the original project:
 
     -   Do it on `origin`.
 
-    -   Add it to `CHANGELOG`.
+    -   Make a pull request directly to the original project.
 
-    -   Make a pull request directly to GitLab on GitHub.
-
-    -   If the GitLab Team either:
+    -   If the project's team either:
 
         - takes more than 2 weeks to acceptint-mr or show a favorable view
         - declines
 
         merge on `mine` and make a pull request to us with one of following labels respectively:
 
-        - `gitlab-timeout`
-        - `gitlab-wontfix`
+        - `timeout`
+        - `wontfix`
 
-    -   If it is accepted on GitLab, it will become available for to our project when we merge to the next stable version.
+    -   If it is accepted on the original project, it will become available for to our project when we merge to the next stable version.
 
--   if your patch only makes sense for project:
+-   if your patch only makes sense for the fork:
 
     - Do it on `mine`.
 
-    - Add it to the `CHANGELOG_FORK`.
+    - Add it to the `CHANGELOG_FORK` if the feature is considerable.
 
     - Pull request directly and only to this project.
