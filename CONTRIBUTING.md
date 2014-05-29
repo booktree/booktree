@@ -17,7 +17,7 @@ If you are not sure what it applies to, open it on this repository.
     Labels that only apply to `enhancements`:
 
     - `accepting-pr`: the project admins endorse this `enhancement`, and will definitely take at submitted patches.
-    - `howto`: the proposal needs to be made more precise before `accepting-mr`.
+    - `howto`: the proposal needs to be made more precise before `accepting-pr`.
     - `dep`: there is another enhancement which needs to be implemented before this one.
     - `hard1`, `hard2`, `hard3`: expected implementation difficulty: low, medium, high.
     - `prio1`, `prio2`, `prio3`: importance of the feature: low, medium, high.
@@ -86,7 +86,7 @@ Files which differ entirely from their original projects will be listed under `.
 
     -   If the project's team either:
 
-        - takes more than 2 weeks to acceptint-mr or show a favorable view
+        - takes more than 2 weeks to acceptint-pr or show a favorable view
         - declines
 
         merge on `mine` and make a pull request to us with one of following labels respectively:
