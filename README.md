@@ -83,9 +83,9 @@ Big wiki comparison table at: <https://github.com/cirosantilli/booktree/wiki/Alt
 
 - [GitHub](https://github.com): no PDF output and sale, CLI-free workflow very limited (no `commit --amend`, `git add`, etc.). Has mentioned interest in book development.
 
-- [O'Reilly Atlas](https://atlas.oreilly.com/) seems to do Git + publishing via GitLab. Waiting to be granted on request access to the private beta review it.
-
 - [Penflip](https://www.penflip.com). Markdown input. Git based: offers clone URL, but not local compilation tools. Simplified Git web including merge requests. TODO: what is their web interface based on?
+
+- [O'Reilly Atlas](https://atlas.oreilly.com/) Git + GitLab backend. HTML WYSIWYG editor or Markdown input. Generates PDF from HTML. No merge requests, commit messages, commit list. Service free for only 30 days.
 
 -   [OERPUB](http://oerpub.org/collaborate) is building the open source:
 
