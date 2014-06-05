@@ -85,7 +85,13 @@ Big wiki comparison table at: <https://github.com/cirosantilli/booktree/wiki/Alt
 
 - [Penflip](https://www.penflip.com). Markdown input. Git based: offers clone URL, but not local compilation tools. Simplified Git web including merge requests. TODO: what is their web interface based on?
 
-- [O'Reilly Atlas](https://atlas.oreilly.com/) Git + GitLab backend. HTML WYSIWYG editor or Markdown input. Generates PDF from HTML. No merge requests, commit messages, commit list. Service free for only 30 days.
+- [O'Reilly Atlas](https://atlas.oreilly.com/) Git + GitLab backend.
+    HTML WYSIWYG editor or Markdown input. Generates PDF from HTML.
+    No merge requests, commit messages, commit list.
+    [No local compilation](http://forum.atlas.oreilly.com/t/is-is-possible-to-compile-books-locally/11/3):
+    input format is [O'Reilly's HTMLBook](https://github.com/oreillymedia/HTMLBook), to which Markdown is converted.
+    HTMLBook is open source and readable on browsers, but there are currently free solutions for PDF conversion.
+    Service free for only 30 days.
 
 -   [OERPUB](http://oerpub.org/collaborate) is building the open source:
 
