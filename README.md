@@ -159,6 +159,7 @@ Discontinued projects:
 # Business model
 
 Optimize for world **happiness**:
+
 -   if your project is:
     - **open source**, you get **all** features for **free**
     - **closed source**, you **may** have to **pay** based on repository size / number of compiles
@@ -190,6 +191,16 @@ Optimize for world **happiness**:
 
     - users to develop from the web UI without installing anything
     - users to sell the compiled output from our website
+
+-   Books have much lower costs than videos for:
+
+    - creation
+    - modification
+    - search
+    - disk space and bandwidth.
+
+    A sequence of well chosen images is better than a video because
+    it is easy to refer to one of the images.
 
 # Architecture
 
