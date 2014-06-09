@@ -79,6 +79,17 @@ If you are not familiar with version control (Git, SVN, Mercurial) [read this](d
     A sequence of well chosen images is better than a video because
     it is easy to refer to one of the images.
 
+# Business model
+
+Optimize for world **happiness**:
+
+-   if your project is:
+    - **open source**, you get **all** features for **free**
+    - **closed source**, you **may** have to **pay** based on repository size / number of compiles
+-   **support**: we are **installable locally** for free and we sell **technical support**.
+-   **book sale**. Authors can sell books, and we take a small percentage of their profit.
+-   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
+
 # Intended Features
 
 These are key features we intend to implement:
@@ -197,17 +208,6 @@ Discontinued projects:
     A third party informed me that they have discontinued.
 
 - [Editorially](https://editorially.com). Markdown input. Shut down May 30 2014.
-
-# Business model
-
-Optimize for world **happiness**:
-
--   if your project is:
-    - **open source**, you get **all** features for **free**
-    - **closed source**, you **may** have to **pay** based on repository size / number of compiles
--   **support**: we are **installable locally** for free and we sell **technical support**.
--   **book sale**. Authors can sell books, and we take a small percentage of their profit.
--   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
 
 # Architecture
 
