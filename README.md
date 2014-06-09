@@ -193,12 +193,12 @@ Optimize for world **happiness**:
     - users to develop from the web UI without installing anything
     - users to sell the compiled output from our website
 
--   Books have much lower costs than videos for:
+-   Books have much lower costs than videos to:
 
-    - creation
-    - modification
+    - create
+    - modify
     - search
-    - disk space and bandwidth.
+    - transmit and store, because files are smaller
 
     A sequence of well chosen images is better than a video because
     it is easy to refer to one of the images.
