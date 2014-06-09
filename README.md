@@ -176,10 +176,11 @@ Optimize for world **happiness**:
 
     We can **reuse** much of the existing coding infra structure to develop books and manage classes.
 
--   Students are greatly motivated by improving and creating books **themselves**.
+-   Students are greatly motivated by improving and creating books **themselves**
+    to get recognition and jobs.
 
--   Teachers can collaborate with other students and teachers from **all over the world**
-    to create the perfect learning environment, and do their jobs at the same time.
+-   Teachers can do their jobs at the same time as they collaborate with other teacher
+    to create the perfect learning environment, become more famous and get better jobs.
 
 -   There are other projects which have **insufficient subsets** of what must be done,
     some of which are already financially bootstrapped.
