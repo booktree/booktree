@@ -169,8 +169,14 @@ Optimize for world **happiness**:
 
 # Why the idea is good
 
--   The current coding / project management workflow is close to **optimal** for creation of code,
-    and is used for every single useful software project today.
+-   The current coding / project management workflow is close to **optimal** for creation of code.
+
+    Version control used for every single serious software project today.
+
+    GitHub, a popular web interface had 3M users and 100M $ investment in 2012.
+
+    Version control has helped the creation of open source libraries developed by thousands
+    and used by millions, such as Firefox, the Linux kernel, GCC, jQuery, and many more.
 
     Books are **very similar** to code, but their development process is still on the **paper age**.
 
