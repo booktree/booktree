@@ -37,6 +37,48 @@ with **Version control** because we adapted:
 
 If you are not familiar with version control (Git, SVN, Mercurial) [read this](doc/new-to-source-control.md).
 
+# Rationale
+
+-   The current coding / project management workflow is close to **optimal** for creation of code.
+
+    Version control used for **every single** serious software project today.
+
+    GitHub, a popular web interface had 3M users and **100M $** investment in 2012.
+
+    Version control has helped the creation of open source libraries developed by thousands
+    and used by millions, such as **Firefox, the Linux kernel, GCC, jQuery**, and many more.
+
+    Books are **very similar** to code, but their development process is still on the **paper age**.
+
+    We can **reuse** much of the existing coding infra structure to develop books and manage classes.
+
+-   Students are greatly motivated by improving and creating books themselves
+    to get **recognition and jobs**.
+
+-   Teachers can do their jobs at the same time as they collaborate with other teacher
+    to create the perfect learning environment, become **more famous and get better jobs**.
+
+-   There are other projects which have **insufficient subsets** of what must be done,
+    some of which are already financially bootstrapped.
+
+    Because of our code reuse, we can offer a better product than them.
+
+-   **Specializing in books** means that we can compile the books ourselves
+    since there are few possible input / output types, allowing:
+
+    - users to develop from the web UI without installing anything
+    - users to sell the compiled output from our website
+
+-   Books have **much lower costs** than videos to:
+
+    - create
+    - modify
+    - search
+    - transmit and store, because files are smaller
+
+    A sequence of well chosen images is better than a video because
+    it is easy to refer to one of the images.
+
 # Intended Features
 
 These are key features we intend to implement:
@@ -166,48 +208,6 @@ Optimize for world **happiness**:
 -   **support**: we are **installable locally** for free and we sell **technical support**.
 -   **book sale**. Authors can sell books, and we take a small percentage of their profit.
 -   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
-
-# Why the idea is good
-
--   The current coding / project management workflow is close to **optimal** for creation of code.
-
-    Version control used for every single serious software project today.
-
-    GitHub, a popular web interface had 3M users and 100M $ investment in 2012.
-
-    Version control has helped the creation of open source libraries developed by thousands
-    and used by millions, such as Firefox, the Linux kernel, GCC, jQuery, and many more.
-
-    Books are **very similar** to code, but their development process is still on the **paper age**.
-
-    We can **reuse** much of the existing coding infra structure to develop books and manage classes.
-
--   Students are greatly motivated by improving and creating books **themselves**
-    to get recognition and jobs.
-
--   Teachers can do their jobs at the same time as they collaborate with other teacher
-    to create the perfect learning environment, become more famous and get better jobs.
-
--   There are other projects which have **insufficient subsets** of what must be done,
-    some of which are already financially bootstrapped.
-
-    Because of our code reuse, we can offer a better product than them.
-
--   Specializing in books means that we can compile the books ourselves
-    since there are few possible input / output types, allowing:
-
-    - users to develop from the web UI without installing anything
-    - users to sell the compiled output from our website
-
--   Books have much lower costs than videos to:
-
-    - create
-    - modify
-    - search
-    - transmit and store, because files are smaller
-
-    A sequence of well chosen images is better than a video because
-    it is easy to refer to one of the images.
 
 # Architecture
 
