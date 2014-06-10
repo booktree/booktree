@@ -35,7 +35,9 @@ with **Version control** because we adapted:
 - IT industry **collaboration** techniques **Git** + **Bugtracker**
 - to **non programmer** book developers
 
-If you are not familiar with version control (Git, SVN, Mercurial) [read this](doc/new-to-source-control.md).
+[Read this if you are not familiar with version control (Git, SVN, Mercurial) ](version-control-intro.md).
+
+[Use this if you want to convince policy makers to fund this idea.]().
 
 # Rationale
 
