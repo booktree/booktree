@@ -141,7 +141,7 @@ Similar projects and features which they lack.
 
 Systems are closed source unless noted otherwise.
 
-Big wiki comparison table at: <https://github.com/cirosantilli/booktree/wiki/Alternatives>
+Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [GitHub](https://github.com): no PDF output and sale, CLI-free workflow very limited (no `commit --amend`, `git add`, etc.). Has mentioned interest in book development.
 
