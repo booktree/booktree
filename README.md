@@ -132,7 +132,7 @@ Key features present in GitLab include:
 For a detailed list of implemented features in which we differ from GitLab
 check the [CHANGELOG_FORK](CHANGELOG_FORK).
 
-# We vs Them
+# Alternatives
 
 Similar projects and features which they lack.
 
