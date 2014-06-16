@@ -1,8 +1,19 @@
+# What is Git
+
+Git is a program that does version control.
+
+It runs locally on your computer, but can also interact with other computers over the network.
+
+It was created for developing the Linux kernel, and it is now probably the most popular
+version control system for web development.
+
+Popular alternatives to Git include: SVN and Mercurial.
+
 # What are versions
 
 Versions are discrete logical modifications to a directory.
 
-You want to change a mathematical notation for an entire book for a better one.
+For example, suppose you want to change a mathematical notation for an entire book for a better one.
 
 - edit file 1, update the notation
 - edit file 2, update the notation
@@ -27,8 +38,6 @@ Git users also call version as *revisions* or *commits*.
 
 # Advantages of version control
 
-They make it easy to:
-
 -   backup and restore: return to an older version if an error was made.
 
     The Git operation is called `checkout`.
@@ -49,11 +58,13 @@ They make it easy to:
     If you say: "look at Section 1", the section might not be there anymore tomorrow.
     With versions, you can say: "look at Section 1, version 2.0"
 
-Version control systems also come with tools to:
+-   upload your project online in one click so that others can see it and to backup them.
 
--   upload your project online. Efficient because only new versions are uploaded.
+    Efficient because only new versions are uploaded.
 
-    The Git operation is called `push`.
+    Allows you to work offline, and compiles outputs faster than the server.
+
+    The Git operation of uploading files is called `push`.
 
 -   work on multiple features at once.
 
@@ -91,8 +102,7 @@ that use version control systems behind the scenes.
 They:
 
 - allow to modify projects on a browser without installing the version control software
-- make it easier for teams to collaborate on a single project:
-    - provide a system to submit and evaluate suggestions called *merge requests*
-    - make the code browsable online
-    - offer a specialized forum system to treat errors called a *bug tracker*
-    - showcase the author so that he becomes more famous
+- provide a system to submit and evaluate suggestions called *merge requests*
+- make the code browsable online
+- offer a specialized forum system to treat errors called a *bug tracker*
+- add measures that indicate who contributed more, and which project is more popular

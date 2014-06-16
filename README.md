@@ -93,6 +93,8 @@ Optimize for world **happiness**:
 -   **book sale**. Authors can sell books, and we take a small percentage of their profit.
 -   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
 
+Planned development timetable at: [timetable.md](timetable.md).
+
 # Intended Features
 
 These are key features we intend to implement:
@@ -118,19 +120,7 @@ These are key features we intend to implement:
     Help people find the best material, and give the best contributors due credit.
 
 For a detailed list of intended features,
-check [the `accepting-pr` label of our issue tracker](https://github.com/cirosantilli/booktree/issues?labels=accepting-pr&page=1&state=open).
-
-# Features
-
-There are currently no key features where we differ from GitLab. Everything was merged back.
-
-Key features present in GitLab include:
-
--   bug tracker with merge requests.
-
-    Treat every reader questions and suggestions as issues or merge requests.
-
-    Never answer the same question twice.
+check [the `accepting-pr` label of our issue tracker](https://github.com/booktree/booktree/issues?labels=accepting-pr&page=1&state=open).
 
 For a detailed list of implemented features in which we differ from GitLab
 check the [CHANGELOG_FORK](CHANGELOG_FORK).
