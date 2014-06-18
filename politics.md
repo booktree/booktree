@@ -20,7 +20,7 @@ Definition: *text* can be either: textbook, tutorial, paper, legal document, ...
 Conclusion: huge **efficiency gains** are behind a **small technological barrier**,
 and a **big behavioral barrier**.
 
-## Make society richer
+## Goals and rationale
 
 Increase the **quality / cost ratio** of text.
 
@@ -34,7 +34,7 @@ Why people contribute for free:
 1. to **become famous** and get better jobs
 1. they use the project and want to **improve it for their clients**
 
-## Text is cheaper than video
+## Why text instead of video
 
 Many MOOCs and websites like Kahn Academy, give emphasis to videos.
 

@@ -180,6 +180,9 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [Connexions](http://cnx.org/). Open source, no Markdown.
 
+-   [Booktype](http://booktype-demo.sourcefabric.org/). [Open source](https://github.com/sourcefabric/Booktype),
+    WYSIWYG, no merge requests, no diff, no commit messages, not Git access. Versions, PDF and HTML output.
+
 -   [prose.io](https://github.com/prose/prose). GitHub + GitHub Pages editor frontend. Open source.
 
 -   [Leanpub](https://leanpub.com). No LaTeX, book sale.
