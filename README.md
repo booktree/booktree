@@ -11,6 +11,8 @@
 
 [Presentation video](https://www.youtube.com/watch?v=8MA-0_ZWmlY). (partially outdated).
 
+[What has already been done by this project](achievements.md).
+
 # Intro for programmers
 
 -   **GitHub clone**
@@ -97,7 +99,7 @@ Planned development timetable at: [timetable.md](timetable.md).
 
 # Intended Features
 
-These are key features we intend to implement:
+These are key high level features we intend to implement:
 
 -   when users push or save from the web UI **markdown or LaTeX input**,
     we **compile and host HTML, PDF, EPUB output**.
@@ -119,11 +121,8 @@ These are key features we intend to implement:
 
     Help people find the best material, and give the best contributors due credit.
 
-For a detailed list of intended features,
-check [the `accepting-pr` label of our issue tracker](https://github.com/booktree/booktree/issues?labels=accepting-pr&page=1&state=open).
-
-For a detailed list of implemented features in which we differ from GitLab
-check the [CHANGELOG_FORK](CHANGELOG_FORK).
+For a detailed list of intended features, check
+[the `accepting-pr` label of our issue tracker](https://github.com/booktree/booktree/issues?labels=accepting-pr&page=1&state=open).
 
 # Alternatives
 
@@ -135,9 +134,10 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [GitHub](https://github.com): no PDF output and sale, CLI-free workflow very limited (no `commit --amend`, `git add`, etc.). Has mentioned interest in book development.
 
--   [Penflip](https://www.penflip.com). Markdown input. Git based: offers clone URL,
-    but not local compilation tools. Simplified Git web including merge requests.
-    TODO: what is their web interface based on?
+-   [Penflip](https://www.penflip.com). Markdown input.
+    [GitLab based](https://twitter.com/madebyloren/status/468917323588698112):
+    offers clone URL, but not local compilation tools.
+    Simplified Git web including merge requests.
 
 -   [O'Reilly Atlas](https://atlas.oreilly.com/) Git + GitLab backend.
     HTML WYSIWYG editor or Markdown input. Generates PDF from HTML.
@@ -205,11 +205,11 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 Discontinued projects:
 
-- [Banyan](https://banyan.co): seems to do exactly the same as this project via GitLab.
+-   [Banyan](https://banyan.co): seems to do exactly the same as this project via GitLab.
     Waiting for them to open public beta (signup currently disabled) to review.
     A third party informed me that they have discontinued.
 
-- [Editorially](https://editorially.com). Markdown input. Shut down May 30 2014.
+-   [Editorially](https://editorially.com). Markdown input. Shut down May 30 2014.
 
 # Architecture
 
