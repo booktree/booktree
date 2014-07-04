@@ -177,6 +177,11 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
     Browser plugin (currently no Firefox). 50M investments between 2009 and 2014,
     9 collaborators (multiple products).
 
+-   [Repositext](http://repositext.org/). Open source. Aims at doing several tools,
+    including GitLab optimized for Markdown editing, like this project,
+    but also things which this project does not aim to do such as Word and InDesign
+    bidirectional conversions. Seems to be on an early stage but promising.
+
 -   [Draft](https://draftin.com). Markdown input, single file input/output only.
     Limited version control and merge request-like functionality.
 
