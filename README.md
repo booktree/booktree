@@ -163,10 +163,6 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [WriteLaTeX](https://www.writelatex.com). No Markdown, branches or merge requests, closed source.
 
--   [Inkling Habitat](https://habitat.inkling.com). WYSIWYG editor, versioning, issue tracker.
-    Browser plugin (currently no Firefox). 50M investments between 2009 and 2014,
-    9 collaborators (multiple products).
-
 -   [Authorea](https://www.authorea.com). Markdown and LaTeX input.
     Git backend as it shows hashes on URLs. Basic versioning.
     No pull requests, HTML output issue tracker.
@@ -174,6 +170,12 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 -   [Beegit](https://beegit.com/). Private beta, waiting for review.
     Deducing from presentation video: Markdown input, multi file project,
     version control, file browser. Possibly GitLab based. 3 collaborators.
+    Deducing from [collaborator's GitHub stars](https://github.com/stars/kciccarello),
+    Node.js based through [NodeGit](https://github.com/nodegit/nodegit).
+
+-   [Inkling Habitat](https://habitat.inkling.com). WYSIWYG editor, versioning, issue tracker.
+    Browser plugin (currently no Firefox). 50M investments between 2009 and 2014,
+    9 collaborators (multiple products).
 
 -   [Draft](https://draftin.com). Markdown input, single file input/output only.
     Limited version control and merge request-like functionality.
