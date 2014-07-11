@@ -124,6 +124,8 @@ These are key high level features we intend to implement:
 For a detailed list of intended features, check
 [the `accepting-pr` label of our issue tracker](https://github.com/booktree/booktree/issues?labels=accepting-pr&page=1&state=open).
 
+For a list of features which we do *not* want see: [non-features.md](non-features.md).
+
 # Alternatives
 
 Similar projects and features which they lack.
@@ -132,7 +134,8 @@ Systems are closed source unless noted otherwise.
 
 Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
--   [GitHub](https://github.com): no PDF output and sale, CLI-free workflow very limited (no `commit --amend`, `git add`, etc.). Has mentioned interest in book development.
+-   [GitHub](https://github.com): no PDF output and sale, CLI-free workflow very limited
+    (no `commit --amend`, `git add`, etc.). Has mentioned interest in book development.
 
 -   [Penflip](https://www.penflip.com). Markdown input.
     [GitLab based](https://twitter.com/madebyloren/status/468917323588698112):
@@ -149,7 +152,8 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [OERPUB](http://oerpub.org/collaborate) is building the open source:
 
-    - [GitHub book editor](https://github.com/oerpub/github-bookeditor): a web editor that saves to GitHub via the API.
+    - [GitHub book editor](https://github.com/oerpub/github-bookeditor):
+        a web editor that saves to GitHub via the API.
     - [pdf-ci](https://github.com/philschatz/pdf-ci): PDF compilation on push via GitHub hooks.
 
     These two tools are part of what we want to build,
