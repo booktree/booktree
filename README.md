@@ -43,6 +43,18 @@ with **Version control** because we adapted:
 
 [Use this if you want to convince policy makers to fund this idea.](politics.md)
 
+# Use cases
+
+-   **students and teachers** will be motivated to improve the books they are using,
+    and create tutorials themselves to help their peers and get **recognition and jobs**.
+
+    Questions can be answered on issues only once, where they can be found by future
+    learners. Closing issues motivates users to improve the text to prevent future
+    users from even having the doubt.
+
+-   **researchers** can collaborate, publish and get metrics on their papers more efficiently,
+    freeing them from publishers who give them nothing in return but a brand.
+
 # Rationale
 
 -   The current coding / project management workflow is close to **optimal** for creation of code.
@@ -57,12 +69,6 @@ with **Version control** because we adapted:
     Books are **very similar** to code, but their development process is still on the **paper age**.
 
     We can **reuse** much of the existing coding infra structure to develop books and manage classes.
-
--   Students are greatly motivated by improving and creating books themselves
-    to get **recognition and jobs**.
-
--   Teachers can do their jobs at the same time as they collaborate with other teacher
-    to create the perfect learning environment, become **more famous and get better jobs**.
 
 -   There are other projects which have **insufficient subsets** of what must be done,
     some of which are already financially bootstrapped.
