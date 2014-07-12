@@ -11,7 +11,9 @@
 
 [Presentation video](https://www.youtube.com/watch?v=8MA-0_ZWmlY). (partially outdated).
 
-[What has already been done by this project](achievements.md).
+[What has been done by this project so far](achievements.md).
+
+[A short history of the project](history.md).
 
 # Intro for programmers
 
