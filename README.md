@@ -133,24 +133,32 @@ For a list of features which we do *not* want see: [non-features.md](non-feature
 Similar projects and features which they lack.
 
 Systems are closed source unless noted otherwise.
+We consider being open source a feature of this project,
+since authors who care about open learning content will likely also
+prefer to work on open source projects.
 
 Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [GitHub](https://github.com): no PDF output and sale, CLI-free workflow very limited
-    (no `commit --amend`, `git add`, etc.). Has mentioned interest in book development.
+    (no `commit --amend`, `git add`, etc.), no user metrics.
 
--   [Penflip](https://www.penflip.com). Markdown input.
-    [GitLab based](https://twitter.com/madebyloren/status/468917323588698112):
-    offers clone URL, but not local compilation tools.
-    Simplified Git web including merge requests.
+-   [Penflip](https://www.penflip.com). [GitLab based](https://twitter.com/madebyloren/status/468917323588698112)
+    but has removed too much existing GitLab functionality, to have a simpler UI,
+    making it less powerful than what this project aims to do: no branches, stats, graphs.
+    issue votes, issue labels, etc. No local compilation tools.
 
--   [O'Reilly Atlas](https://atlas.oreilly.com/) Git + GitLab backend.
-    HTML WYSIWYG editor or Markdown input. Generates PDF from HTML.
+    Markdown input, visible clone URL.
+
+-   [O'Reilly Atlas](https://atlas.oreilly.com/). GitLab based.
+
     No merge requests, commit messages, commit list.
+
     [No local compilation](http://forum.atlas.oreilly.com/t/is-is-possible-to-compile-books-locally/11/3):
-    input format is [O'Reilly's HTMLBook](https://github.com/oreillymedia/HTMLBook), to which Markdown is converted.
+    base input format is [O'Reilly's HTMLBook](https://github.com/oreillymedia/HTMLBook), to which Markdown is converted.
     HTMLBook is open source and readable on browsers, but there are currently free solutions for PDF conversion.
     Service free for only 30 days.
+
+    HTML WYSIWYG editor or Markdown input.
 
 -   [OERPUB](http://oerpub.org/collaborate) is building the open source:
 
@@ -162,12 +170,14 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
     but we feel that using GitLab instead of GitHub is the way to go
     because it allows us to adapt the web frontend code and interface with it more tightly.
 
--   [ShareLaTeX](https://www.sharelatex.com). Open sourced early 2014.
-    Lacks: Markdown input, HTML output, versioning on free tier,
+-   [ShareLaTeX](https://www.sharelatex.com).
+    No Markdown input, HTML output, versioning on free tier,
     no merge requests (real time focused), hidden Git back-end,
-    [at least 94k users](https://twitter.com/henryoswald/status/459367445946707968).
 
--   [WriteLaTeX](https://www.writelatex.com). No Markdown, branches or merge requests, closed source.
+    Open sourced early 2014.
+    [At least 94k users](https://twitter.com/henryoswald/status/459367445946707968).
+
+-   [WriteLaTeX](https://www.writelatex.com). Similar to ShareLaTeX but closed source.
 
 -   [Authorea](https://www.authorea.com). Markdown and LaTeX input.
     Git backend as it shows hashes on URLs. Basic versioning.
