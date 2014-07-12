@@ -155,7 +155,7 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
     Markdown input, visible clone URL.
 
--   [O'Reilly Atlas](https://atlas.oreilly.com/). GitLab based.
+-   [O'Reilly Atlas](https://atlas.oreilly.com/).
 
     No merge requests, commit messages, commit list.
 
@@ -164,6 +164,7 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
     HTMLBook is open source and readable on browsers, but there are currently free solutions for PDF conversion.
     Service free for only 30 days.
 
+    GitLab based, since it uses https://github.com/oreillymedia/backbone-gitlab on the front-end.
     HTML WYSIWYG editor or Markdown input.
 
 -   [OERPUB](http://oerpub.org/collaborate) is building the open source:
