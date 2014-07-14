@@ -138,12 +138,12 @@ For a list of features which we do *not* want see: [non-features.md](non-feature
 
 Similar projects and features which they lack.
 
+Big feature set table at: <http://booktree.github.io/alternatives>
+
 Systems are closed source unless noted otherwise.
 We consider being open source a feature of this project,
 since authors who care about open learning content will likely also
 prefer to work on open source projects.
-
-Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [GitHub](https://github.com): no PDF output and sale, CLI-free workflow very limited
     (no `commit --amend`, `git add`, etc.), no user metrics.
