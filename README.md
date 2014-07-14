@@ -159,7 +159,7 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
     No merge requests, commit messages, commit list.
 
-    [No local compilation](http://forum.atlas.oreilly.com/t/is-is-possible-to-compile-books-locally/11/3):
+    [No local PDF compilation](http://forum.atlas.oreilly.com/t/is-is-possible-to-compile-books-locally/11/3):
     base input format is [O'Reilly's HTMLBook](https://github.com/oreillymedia/HTMLBook), to which Markdown is converted.
     HTMLBook is open source and readable on browsers, but there are currently free solutions for PDF conversion.
     Service free for only 30 days.
@@ -186,15 +186,16 @@ Big wiki feature set tables at: <https://github.com/booktree/booktree/wiki>
 
 -   [WriteLaTeX](https://www.writelatex.com). Similar to ShareLaTeX but closed source.
 
--   [Authorea](https://www.authorea.com). Markdown and LaTeX input.
-    Git backend as it shows hashes on URLs. Basic versioning.
-    No pull requests, HTML output issue tracker.
+-   [Authorea](https://www.authorea.com). No pull requests, no HTML output, no issue tracker.
 
--   [Beegit](https://beegit.com/). Private beta, waiting for review.
-    Deducing from presentation video: Markdown input, multi file project,
-    version control, file browser. Possibly GitLab based. 3 collaborators.
-    Deducing from [collaborator's GitHub stars](https://github.com/stars/kciccarello),
-    Node.js based through [NodeGit](https://github.com/nodegit/nodegit).
+    Markdown and LaTeX input, no commit messages.
+
+    Git backend as it shows hashes on URLs. Likely Rails, since `meta name=csrf-token`,
+    and high <http://isitrails.com> score. So, it it GitLab or not =)?
+
+-   [Beegit](https://beegit.com/). Beta, waiting for review multi user functions.
+
+    No multi-file compilation, no PDF, no branches, no issues, no local compilation, no Git access.
 
 -   [Inkling Habitat](https://habitat.inkling.com). WYSIWYG editor, versioning, issue tracker.
     Browser plugin (currently no Firefox). 50M investments between 2009 and 2014,
