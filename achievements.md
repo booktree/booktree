@@ -20,12 +20,12 @@ there have been many more smaller contributions not listed here.
 
 | Date    | Project                 | Description                                                                                                                                        |
 |---------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2014-06 | [GitLab][]              | [Update docs to match new markdown style guide.](https://github.com/gitlabhq/gitlabhq/pull/6863)                                                   |
-| 2014-06 | [Markdown Test Suite][] | [Add Vagrantfile.](https://github.com/karlcow/markdown-testsuite/pull/55) Made the test suite much more useful by actually running the tests.     |
-| 2014-02 | [GitLab][]              | [Add anchors to markdown rendered headers.](https://github.com/gitlabhq/gitlabhq/pull/6219). Made rendered Markdown more usable.                   |
-| 2014-02 | [GitLab][]              | [User profile pages are publicly visible.](https://github.com/gitlabhq/gitlabhq/pull/6177). Step towards user metrics.                             |
-| 2014-01 | [GitLab][]              | [Create metal development install documentation.](https://gitlab.com/gitlab-org/cookbook-gitlab/merge_requests/29). Makes development much faster. |
-| 2013-09 | [Vim Markdown][]        | [Add mappings to navigate across headers.](https://github.com/plasticboy/vim-markdown/pull/37).                                                    |
+| 2014-06 | [GitLab][]              | [Update docs to match new markdown style guide](https://github.com/gitlabhq/gitlabhq/pull/6863)                                                   |
+| 2014-06 | [Markdown Test Suite][] | [Add Vagrantfile](https://github.com/karlcow/markdown-testsuite/pull/55) Made the test suite much more useful by actually running the tests.     |
+| 2014-02 | [GitLab][]              | [Add anchors to markdown rendered headers](https://github.com/gitlabhq/gitlabhq/pull/6219). Made rendered Markdown more usable.                   |
+| 2014-02 | [GitLab][]              | [User profile pages are publicly visible](https://github.com/gitlabhq/gitlabhq/pull/6177). Step towards user metrics.                             |
+| 2014-01 | [GitLab][]              | [Create metal development install documentation](https://gitlab.com/gitlab-org/cookbook-gitlab/merge_requests/29). Makes development much faster. |
+| 2013-09 | [Vim Markdown][]        | [Add mappings to navigate across headers](https://github.com/plasticboy/vim-markdown/pull/37).                                                    |
 
 [gitlab]:              https://github.com/gitlabhq/gitlabhq
 [markdown test suite]: https://github.com/karlcow/markdown-testsuite
