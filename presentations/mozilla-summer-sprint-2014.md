@@ -1,4 +1,4 @@
-# Booktree - Mozilla Summer Sprint 2014
+# Mozilla Summer Sprint 2014
 
 Proposal for the [Mozilla Summer Sprint 2014](http://mozillascience.org/summer-sprint-faq).
 
@@ -26,10 +26,28 @@ Currently this project is being developed only by [Ciro Santilli](http://www.cir
 As shown in the [alternatives section](https://github.com/booktree/booktree#alternatives),
 we believe that there are no good enough products yet, even less so in the open source side.
 
+## What has been done so far
+
 See the [achievements section](https://github.com/booktree/booktree/blob/master/achievements.md)
 for a list of what has been done so far.
 
-## Proposed activities
+## Workflow
+
+Add your name to the wiki: https://github.com/booktree/booktree/wiki/Mozilla-Summer-Sprint-2014
+
+Before you start working on one of the proposed issues, leave a comment there saying it.
+
+Communication channels:
+
+- issues: feel free to open an issue on this project with any question you may have.
+    Ciro Santilli will respond promptly.
+
+- Skype: addresses are listed on the wiki.
+    Leave more complex questions to the issues where they can be seen later by others.
+
+At the end of the day, write what you have worked on and achieved at the wiki.
+
+## What needs to be done
 
 Up to now, we have been only *merging back* features for GitLab
 which we feel are very important for text development,
@@ -39,13 +57,21 @@ This means that will will focus on issues from their
 [feature request forum](http://feedback.gitlab.com/forums/176466-general)
 that have been marked as ACCEPTING MERGE REQUESTS.
 
-Bellow is a list of such issues that we propose be tackled on the sprint.
+Below is a list of such issues that we propose be tackled on the sprint.
 
-If you have another idea, please send a PR.
+If you want to tackle any other ACCEPTING MERGE REQUEST issue that's fine as well:
+most things that improve GitLab also improve it for text editing.
+Just keep an eye out for the [non-features](../non-features.md).
 
-Each link points to an issue: if you wish to start work on it, just leave a comment there.
+GitLab is based on Rails, so minimal Rails knowledge is necessary to contribute.
+If you want to learn Rails during the sprint,
+that would be a very significant contribution too, and we would love to help you.
 
-# Simple and useful for everyone
+### Issue list
+
+Bellow are the issues we propose people work on.
+
+#### Simple and useful for everyone
 
 The following issues simple to implement, and are useful to anyone who uses GitLab,
 both for text and computer code developers.
@@ -64,7 +90,7 @@ They would be a good way to get started with the project for less experienced de
 - http://feedback.gitlab.com/forums/176466-general/suggestions/5760434-avoid-using-low-contrast-text-in-documentation
 - http://feedback.gitlab.com/forums/176466-general/suggestions/5607934-view-diff-on-submit-merge-request-form
 
-### Well specified and key to text development
+#### Well specified and key to text development
 
 These are issues which we feel are both very well specified,
 and very important to text editing in particular.
@@ -90,7 +116,7 @@ but we believe that a Rails developer could tackle during the time of the Sprint
 - http://feedback.gitlab.com/forums/176466-general/suggestions/5004385-wrap-lines-option-in-the-merge-request
     optimizes for text editing. Medium difficulty.
 
-# Hard and key to text development
+#### Hard and key to text development
 
 The following issues are less well specified, but important for text editing in particular.
 
