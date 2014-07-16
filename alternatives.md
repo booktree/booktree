@@ -2,7 +2,7 @@
 
 Similar projects and features which they lack.
 
-Big feature set table at: <http://booktree.github.io/alternatives>
+Big feature set table and more details at: <http://booktree.github.io/alternatives>
 
 Systems are closed source unless noted otherwise.
 We consider being open source a feature of this project,
@@ -108,3 +108,10 @@ Discontinued projects:
     A third party informed me that they have discontinued.
 
 -   [Editorially](https://editorially.com). Markdown input. Shut down May 30 2014.
+
+## Related projects
+
+Not really alternatives to this project, but relate to it somehow:
+
+- <https://github.com/scholmd/scholmd> Proponent movement for using Markdown for science.
+    Contains Markdown tutorials and tools.
