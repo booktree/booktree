@@ -6,6 +6,9 @@ This means that we are only implementing ACCEPTING MR issues from:
 <http://feedback.gitlab.com/forums/176466-general/status/796455>
 Only if GitLab stops accepting key features for this project will we fork.
 
+We are filtering all GitLab feature requests that matter to this project in
+[our issue tracker](https://github.com/booktree/booktree/issues?state=open).
+
 # Issues
 
 If an issue applies only to a particular repository, open it in that repository.

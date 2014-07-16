@@ -4,16 +4,19 @@ This lists considerable contributions which have been done by this project to fu
 
 The main types of contributions have been to:
 
--   [GitLab][], the main back-end. We have managed to merge in some key features
-    that make it closer to what we want it to be.
+-   [GitLab][], the main back-end. We have managed to both:
+
+    - implement
+    - convince GitLab [to accept](http://feedback.gitlab.com/forums/176466-general/status/796455)
+
+    some key features that GitLab closer to what we want it to be.
 
 -   Markdown in general, through [Markdown Test Suite][], [Vim Markdown][].
 
     Because Markdown has to be usable for this project to succeed.
 
-While doing those contributions we have noticed other smaller things that should be done
-like fixing bugs or UI improvements, done them in parallel, but have not necessarily
-listed them here.
+This is a list of only major features we have implemented:
+there have been many more smaller contributions not listed here.
 
 | Date    | Project                 | Description                                                                                                                                        |
 |---------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
