@@ -13,7 +13,9 @@
 
 [What has been done by this project so far](achievements.md).
 
-[A short history of the project](history.md).
+[History of the project](history.md).
+
+**Status**: under development. Not yet usable by end users.
 
 ## Intro for programmers
 
@@ -206,7 +208,8 @@ prefer to work on open source projects.
 -   [Repositext](http://repositext.org/). Open source. Aims at doing several tools,
     including GitLab optimized for Markdown editing, like this project,
     but also things which this project does not aim to do such as Word and InDesign
-    bidirectional conversions. Seems to be on an early stage but promising.
+    bidirectional conversions. Not clear what they have done so far:
+    seems to be on an early stage but promising.
 
 -   [Draft](https://draftin.com). Markdown input, single file input/output only.
     Limited version control and merge request-like functionality.
@@ -235,6 +238,8 @@ prefer to work on open source projects.
 
 -   [Google Docs](https://docs.google.com): not possible to explicitly create versions:
     they automatically created at regular time intervals.
+
+-   [Open Science Framework](https://osf.io). TODO
 
 Discontinued projects:
 
