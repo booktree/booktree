@@ -50,6 +50,11 @@ prefer to work on open source projects.
 
 -   [WriteLaTeX](https://www.writelatex.com). Similar to ShareLaTeX but closed source.
 
+-   [GitBook](https://github.com/GitbookIO/gitbook): does not provide a Git web interface
+    or issue tracker: only a CI + sales and viewer front end front-end, which could be used
+    by this project. The local editor of the project is simple and can is already
+    implemented by other projects.
+
 -   [Authorea](https://www.authorea.com). No pull requests, no HTML output, no issue tracker.
 
     Markdown and LaTeX input, no commit messages.
