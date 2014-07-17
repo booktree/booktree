@@ -97,7 +97,25 @@ For a list of features which we do *not* want see: [non-features.md](non-feature
 
 For the system architecture that will allow us to achieve those goals see: [architecture.md](architecture.md).
 
-## Rationale
+## Business model
+
+Optimize for world **happiness**:
+
+-   if your project is:
+
+    - **open source**, you get **all** features for **free**
+    - **closed source**, you **may** have to **pay** based on repository size / number of compiles
+
+-   **support**: we are **installable locally** for free and we sell **technical support**.
+
+-   **book sale** and **bounties**. Users can sell books and receive bounties,
+    and we take a small percentage of their profit.
+
+-   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
+
+Planned development timetable at: [timetable.md](timetable.md).
+
+### Why the business model may work
 
 -   The current coding / project management workflow is close to **optimal** for creation of code.
 
@@ -133,24 +151,6 @@ For the system architecture that will allow us to achieve those goals see: [arch
 
     A sequence of well chosen images is better than a video because
     it is easy to refer to one of the images.
-
-## Business model
-
-Optimize for world **happiness**:
-
--   if your project is:
-
-    - **open source**, you get **all** features for **free**
-    - **closed source**, you **may** have to **pay** based on repository size / number of compiles
-
--   **support**: we are **installable locally** for free and we sell **technical support**.
-
--   **book sale** and **bounties**. Users can sell books and receive bounties,
-    and we take a small percentage of their profit.
-
--   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
-
-Planned development timetable at: [timetable.md](timetable.md).
 
 ## Contributing
 
