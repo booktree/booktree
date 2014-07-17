@@ -49,8 +49,9 @@ with **Version control** because we adapted:
 
 ## Use cases
 
--   **students and teachers** will be motivated to improve the books they are using,
-    and create tutorials themselves to help their peers and get **recognition and jobs**.
+-   **students and teachers** will be motivated to improve the books they are using
+    and create tutorials themselves to help their peers and to get **recognition and thus better jobs**,
+    all **while doing their obligations**.
 
     Questions can be answered on issues only once, where they can be found by future
     learners. Closing issues motivates users to improve the text to prevent future
