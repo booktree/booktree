@@ -9,15 +9,13 @@
 - increase the quality / price ratio of textual learning material: textbooks, papers, tutorials.
 - motivate readers (students) to learn by contributing.
 
-[Presentation video](https://www.youtube.com/watch?v=8MA-0_ZWmlY). (partially outdated).
+Links:
 
-[What has been done by this project so far](achievements.md).
-
-[History of the project](history.md).
-
-[Alternatives to this project](alternatives.md).
-
-**Status**: under development. Not yet usable by end users.
+- [What has been done by this project so far](achievements.md).
+- [History of the project](history.md).
+- [Alternatives to this project](alternatives.md).
+- [Presentation video](https://www.youtube.com/watch?v=8MA-0_ZWmlY). (partially outdated).
+- **Status**: under development. Not yet usable by end users.
 
 ## Intro for programmers
 
