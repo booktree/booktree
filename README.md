@@ -51,12 +51,14 @@ with **Version control** because we adapted:
     and create tutorials themselves to help their peers and to get **recognition and thus better jobs**,
     all **while doing their obligations**.
 
-    Questions can be answered on issues only once, where they can be found by future
+    Questions can be answered on issues **only once**, where they can be found by future
     learners. Closing issues motivates users to improve the text to prevent future
     users from even having the doubt.
 
 -   **researchers** can collaborate, publish and get metrics on their papers more efficiently,
     freeing them from publishers who give them nothing in return but a brand.
+
+For detailed use case stories see: [use-cases.md](use-cases.md).
 
 ## Intended Features
 
@@ -86,7 +88,7 @@ Other possible features:
 
 -   writers can **set a price** for the compiled output, readers **pay** to have it.
 
--   bounty system similar to [Bounty Source](https://www.bountysource.com):
+-   bounty system similar to [Bountysource](https://www.bountysource.com):
     users can pay others to solve issues. Regular monthly payments can also be made
     for users to solve an average number of issues on each period, at a lower cost per issue.
 
