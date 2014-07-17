@@ -78,7 +78,7 @@ Minimum viable product features:
     - learn Git from the browser
     - don't need to install anything
 
-Future features:
+Other possible features:
 
 -   **metrics for everything**: users, projects, groups, issues, comments, tags.
 
@@ -91,7 +91,7 @@ Future features:
     for users to solve an average number of issues on each period, at a lower cost per issue.
 
 For a detailed list of intended features, check
-[the `accepting-pr` label of our issue tracker](https://github.com/booktree/booktree/issues?labels=accepting-pr&page=1&state=open).
+[our issue tracker](https://github.com/booktree/booktree/issues?state=open).
 
 For a list of features which we do *not* want see: [non-features.md](non-features.md).
 
