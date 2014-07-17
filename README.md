@@ -58,6 +58,45 @@ with **Version control** because we adapted:
 -   **researchers** can collaborate, publish and get metrics on their papers more efficiently,
     freeing them from publishers who give them nothing in return but a brand.
 
+## Intended Features
+
+High level roadmap of features we intend to implement.
+
+Minimum viable product features:
+
+-   when users push or save from the web UI **markdown or LaTeX input**,
+    we **compile and host HTML, PDF, EPUB output**.
+
+-   Js editor with **side by side source / preview** view for individual files,
+    compatible with the on push compiler.
+
+-   **everything** can be done via the web interface:
+    `mv`, `add`, `status`, `diff`, multi-file commits, revolve merge conflicts.
+
+    Non programmers:
+
+    - learn Git from the browser
+    - don't need to install anything
+
+Future features:
+
+-   **metrics for everything**: users, projects, groups, issues, comments, tags.
+
+    Help people find the best material, and give the best contributors due credit.
+
+-   writers can **set a price** for the compiled output, readers **pay** to have it.
+
+-   bounty system similar to [Bounty Source](https://www.bountysource.com):
+    users can pay others to solve issues. Regular monthly payments can also be made
+    for users to solve an average number of issues on each period, at a lower cost per issue.
+
+For a detailed list of intended features, check
+[the `accepting-pr` label of our issue tracker](https://github.com/booktree/booktree/issues?labels=accepting-pr&page=1&state=open).
+
+For a list of features which we do *not* want see: [non-features.md](non-features.md).
+
+For the system architecture that will allow us to achieve those goals see: [architecture.md](architecture.md).
+
 ## Rationale
 
 -   The current coding / project management workflow is close to **optimal** for creation of code.
@@ -100,44 +139,18 @@ with **Version control** because we adapted:
 Optimize for world **happiness**:
 
 -   if your project is:
+
     - **open source**, you get **all** features for **free**
     - **closed source**, you **may** have to **pay** based on repository size / number of compiles
+
 -   **support**: we are **installable locally** for free and we sell **technical support**.
--   **book sale**. Authors can sell books, and we take a small percentage of their profit.
+
+-   **book sale** and **bounties**. Users can sell books and receive bounties,
+    and we take a small percentage of their profit.
+
 -   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
 
 Planned development timetable at: [timetable.md](timetable.md).
-
-## Intended Features
-
-High level roadmap of features we intend to implement:
-
--   when users push or save from the web UI **markdown or LaTeX input**,
-    we **compile and host HTML, PDF, EPUB output**.
-
--   Js editor with **side by side source / preview** view for individual files,
-    compatible with the on push compiler.
-
--   **everything** can be done via the web interface:
-    `mv`, `add`, `status`, `diff`, multi-file commits, revolve merge conflicts.
-
-    Non programmers:
-
-    - learn Git from the browser
-    - don't need to install anything
-
--   writers can **set a price** for the compiled output, readers **pay** to have it.
-
--   **metrics for everything**: users, projects, groups, issues, comments, tags.
-
-    Help people find the best material, and give the best contributors due credit.
-
-For a detailed list of intended features, check
-[the `accepting-pr` label of our issue tracker](https://github.com/booktree/booktree/issues?labels=accepting-pr&page=1&state=open).
-
-For a list of features which we do *not* want see: [non-features.md](non-features.md).
-
-For the system architecture that will allow us to achieve those goals see: [architecture.md](architecture.md).
 
 ## Contributing
 
