@@ -1,21 +1,32 @@
+# Contributing guidelines
+
 The CONTRIBUTING guidelines of each forked project apply unless stated otherwise
 here or on the `CONTRIBUTING_FORK` of the project.
 
-Currently we are **only merging back to GitLab**, while discussing what needs to be done.
-This means that we are only implementing ACCEPTING MR issues from:
+## Process
+
+Only issues which have been marked labeled as
+[accepting-pr](https://github.com/booktree/booktree/labels/accepting-pr)
+will be considered for inclusion.
+
+Currently, for GitLab related issues, **we are only merging back**, while discussing what needs to be done.
+This means that we are only mark as `accepting-pr` on issues which GitLab has marked as `accepting-mr`:
 <http://feedback.gitlab.com/forums/176466-general/status/796455>
 Only if GitLab stops accepting key features for this project will we fork.
 
-We are filtering all GitLab feature requests that matter to this project in
+We are filtering all feature requests that matter to this project in
 [our issue tracker](https://github.com/booktree/booktree/issues?state=open).
+This includes both issues from GitLab, which are marked with the
+[GitLab label](https://github.com/booktree/booktree/labels/gitlab)
+and other issues.
 
-# Issues
+If you have an idea, feel free to submit it here for discussion.
+If it applies to a project we use like GitLab, open an issue on that project,
+and create an issue here that only links to it.
+The discussion will be centralized on the original project to start with.
+We shoulf first try to convince the original project to accept the feature before forking it.
 
-If an issue applies only to a particular repository, open it in that repository.
-
-If you are not sure what it applies to, open it on this repository.
-
-# Labels
+## Labels
 
 -   `bug`
 
@@ -54,7 +65,7 @@ please add it to the title of the issue as:
 
 If collaborators agree with the label, they will add it later on.
 
-# Upvotes
+## Upvotes
 
 Upvoting issues you like is encouraged.
 Please only use the marker `+1` and keep a running count of upvotes as in:
@@ -71,7 +82,7 @@ Next upvote comment:
 
 And so on.
 
-# Branches
+## Branches
 
 Use the following branches:
 
@@ -83,7 +94,7 @@ to make some tests pass on GitLab.
 
 Use feature branches for every modification.
 
-# Merge requests
+## Merge requests
 
 This project will attempt to:
 
@@ -95,13 +106,14 @@ Because we have slightly different design goals, some changes will not be merged
 Files which differ entirely from their original projects
 will be listed under `.gitattributes` with `merge=ours`.
 
-## Where to submit
+### Where to submit
 
 -   if your patch also makes sense for the original project:
 
     -   Do it on `origin`.
 
-    -   Make a pull request directly to the original project.
+    -   Make a pull request directly to the original project,
+        and create an issue on this project pointing to it.
 
     -   If the project's team either:
 
