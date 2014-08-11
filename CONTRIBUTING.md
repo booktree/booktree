@@ -24,7 +24,7 @@ If you have an idea, feel free to submit it here for discussion.
 If it applies to a project we use like GitLab, open an issue on that project,
 and create an issue here that only links to it.
 The discussion will be centralized on the original project to start with.
-We shoulf first try to convince the original project to accept the feature before forking it.
+We should first try to convince the original project to accept the feature before forking it.
 
 ## Labels
 
