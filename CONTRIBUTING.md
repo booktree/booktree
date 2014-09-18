@@ -38,8 +38,9 @@ We should first try to convince the original project to accept the feature befor
 
     Labels that only apply to `enhancements`:
 
-    - `accepting-pr`: the project admins endorse this `enhancement`,
-        and will definitely take at submitted patches.
+    - `accepting-pr`: the feature is well defined and important.
+        Project admins will definitely take at submitted patches.
+        This is where you should look for things to work on.
     - `howto`: the proposal needs to be made more precise before `accepting-pr`.
     - `dep`: there is another enhancement which needs to be implemented before this one.
     - `hard1`, `hard2`, `hard3`: expected implementation difficulty: low, medium, high.

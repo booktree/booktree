@@ -21,14 +21,14 @@ prefer to work on open source projects.
 
 -   [O'Reilly Atlas](https://atlas.oreilly.com/).
 
-    No merge requests, commit messages, commit list.
+    No commit messages.
 
     [No local PDF compilation](http://forum.atlas.oreilly.com/t/is-is-possible-to-compile-books-locally/11/3):
     base input format is [O'Reilly's HTMLBook](https://github.com/oreillymedia/HTMLBook), to which Markdown is converted.
     HTMLBook is open source and readable on browsers, but there are currently free solutions for PDF conversion.
     Service free for only 30 days.
 
-    GitLab based, since it uses https://github.com/oreillymedia/backbone-gitlab on the front-end.
+    GitLab based, since it uses <https://github.com/oreillymedia/backbone-gitlab> on the front-end.
     HTML WYSIWYG editor or Markdown input.
 
 -   [OERPUB](http://oerpub.org/collaborate) is building the open source:
