@@ -25,7 +25,7 @@ Links:
 -   powered by **[GitLab](https://github.com/gitlabhq/gitlabhq)**,
     the best open source GitHub clone:
     - [GitHub top 30 by stars](https://github.com/search?p=3&q=stars%3A%3E10000&ref=searchresults&type=Repositories)
-    - [6 people working full time with service revenue](https://www.gitlab.com/about/)
+    - [8 people working full time with service revenue](https://www.gitlab.com/about/)
     - [Feature set close to GitHub](https://github.com/gitlabhq/gitlab-public-wiki/wiki/Comparison-to-other-Git-web-interfaces)
 
 The project is modularized for maximum reuse. See the [Architecture](#architecture) section.
