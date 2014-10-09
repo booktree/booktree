@@ -42,7 +42,8 @@ We should first try to convince the original project to accept the feature befor
         Project admins will definitely take at submitted patches.
         This is where you should look for things to work on.
     - `howto`: the proposal needs to be made more precise before `accepting-pr`.
-    - `dep`: there is another enhancement which needs to be implemented before this one.
+    - `has-dependency`: there is another enhancement which needs to be implemented
+        before this one.
     - `hard1`, `hard2`, `hard3`: expected implementation difficulty: low, medium, high.
     - `prio1`, `prio2`, `prio3`: importance of the feature: low, medium, high.
     - `wontfix`: feature request was declined.
@@ -58,6 +59,11 @@ We should first try to convince the original project to accept the feature befor
     - `orig-timeout`: 2 weeks passed without a favorable reply from Prose Team.
     - `orig-wontfix`: the original project declined the feature.
         It might still be acceptable in this project.
+
+Project labels:
+
+-   `gitlab`
+-   `github`: on enhancements, means the feature is not present on GitHub
 
 If you don't have the permission to add a label to your issue,
 please add it to the title of the issue as:
