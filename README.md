@@ -113,7 +113,10 @@ Optimize for world **happiness**:
 -   **book sale** and **bounties**. Users can sell books and receive bounties,
     and we take a small percentage of their profit.
 
--   we will stay almost entirely **open source** forever, so that anyone can contribute with great features.
+-   we will stay as **open source** as possible as long as it does not hinder the project.
+
+    If we feel that we need to start making closed source features to get money to continue
+    delivering the best product we will do so.
 
 Planned development timetable at: [timetable.md](timetable.md).
 
