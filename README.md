@@ -118,6 +118,8 @@ Optimize for world **happiness**:
     If we feel that we need to start making closed source features to get money to continue
     delivering the best product we will do so.
 
+    If you are doing a similar project, we'd rather merge with you than compete.
+
 Planned development timetable at: [timetable.md](timetable.md).
 
 ### Why the business model may work
