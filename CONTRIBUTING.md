@@ -9,9 +9,16 @@ Only issues which have been marked labeled as
 [accepting-pr](https://github.com/booktree/booktree/labels/accepting-pr)
 will be considered for inclusion.
 
+If those changes are to be made on upstream projects,
+we will review them ourselves to speed up the merge.
+
+However, we would be really happy if you implement any of the issues in our tracker:
+we just don't guarantee we will review them immediately (although that is likely to happen).
+
 Currently, for GitLab related issues, **we are only merging back**, while discussing what needs to be done.
 This means that we are only mark as `accepting-pr` on issues which GitLab has marked as `accepting-mr`:
-<http://feedback.gitlab.com/forums/176466-general/status/796455>
+<http://feedback.gitlab.com/forums/176466-general/status/796455>,
+which we are currently tracking under the [gitlab-accepting-mr label](https://github.com/booktree/booktree/labels/gitlab-accepting-pr)
 Only if GitLab stops accepting key features for this project will we fork.
 
 We are filtering all feature requests that matter to this project in
