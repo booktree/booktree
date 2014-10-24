@@ -11,11 +11,11 @@
 
 Links:
 
-- [What has been done by this project so far](achievements.md).
-- [Alternatives to this project](alternatives.md).
-- [Monthly news reports](monthly-reports/).
-- [History of the project](history.md).
-- [Presentation video](https://www.youtube.com/watch?v=8MA-0_ZWmlY). (partially outdated).
+- [What has been done by this project so far](achievements.md)
+- [Alternatives to this project](alternatives.md)
+- [Monthly news reports](monthly-reports/)
+- [History of the project](history.md)
+- [Presentation video](https://www.youtube.com/watch?v=8MA-0_ZWmlY). (partially outdated)
 - **Status**: under development. Not yet usable by end users.
 
 ## Intro for programmers
