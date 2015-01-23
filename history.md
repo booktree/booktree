@@ -10,3 +10,6 @@ which explains the slow development process in the first months.
 
 He is currently the only major contributor, and is looking for investments
 to help the project move forward.
+
+In Jan 2015, Ciro got a job and stopped working on Booktree
+[for the following reasons](blog/2015-01-why-ciro-stopped-working-on-booktree.md).
