@@ -120,3 +120,5 @@ Not really alternatives to this project, but relate to it somehow:
 
 - <https://github.com/scholmd/scholmd> Proponent movement for using Markdown for science.
     Contains Markdown tutorials and tools.
+
+- <http://www.scribophile.com/>
