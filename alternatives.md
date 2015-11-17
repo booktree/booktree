@@ -118,7 +118,10 @@ Discontinued projects:
 
 Not really alternatives to this project, but relate to it somehow:
 
-- <https://github.com/scholmd/scholmd> Proponent movement for using Markdown for science.
+-   <https://github.com/scholmd/scholmd> Proponent movement for using Markdown for science.
     Contains Markdown tutorials and tools.
 
-- <http://www.scribophile.com/>
+-   <http://www.scribophile.com/>
+
+-   <http://functionspace.com/> knowledge comunity. Has a reputation metric,
+    but not sure if it is documented: <http://functionspace.com/help>
