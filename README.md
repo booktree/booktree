@@ -1,6 +1,6 @@
 # Booktree Project
 
-UPDATE: I've de that this
+UPDATE: I've de that this project is not useful enough, Git for local editing is not the bottleneck. Let's do this instead:
 
 <https://github.com/cirosantilli/write-free-science-books-to-get-famous-website>
 
